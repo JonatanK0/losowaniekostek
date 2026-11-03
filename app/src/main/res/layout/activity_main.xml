@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:text="@string/app_name"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/liczba_kostek"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextLiczbaKostek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/podaj_liczbe"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:text="@string/domyslna_liczba" />
+
+        <Button
+            android:id="@+id/buttonLosuj"
+            style="@style/Przycisk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/losuj" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/wylosowane_kostki"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <GridLayout
+            android:id="@+id/gridKostki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:gravity="center"
+            android:useDefaultMargins="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/wyniki"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewWyniki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/puste_wyniki"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonRosnaco"
+            style="@style/Przycisk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/sortuj_rosnaco" />
+
+        <Button
+            android:id="@+id/buttonMalejaco"
+            style="@style/Przycisk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/sortuj_malejaco" />
+
+    </LinearLayout>
+</ScrollView>

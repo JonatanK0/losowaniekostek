@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Losowanie kostek</string>
+    <string name="liczba_kostek">Liczba kostek:</string>
+    <string name="podaj_liczbe">Podaj liczbę kostek</string>
+    <string name="domyslna_liczba">5</string>
+    <string name="losuj">LOSUJ</string>
+    <string name="wylosowane_kostki">Wylosowane kostki:</string>
+    <string name="wyniki">Wyniki:</string>
+    <string name="puste_wyniki">Wyniki pojawią się tutaj</string>
+    <string name="sortuj_rosnaco">SORTUJ ROSNĄCO</string>
+    <string name="sortuj_malejaco">SORTUJ MALEJĄCO</string>
+</resources>

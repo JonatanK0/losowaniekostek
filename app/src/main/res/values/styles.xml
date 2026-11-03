@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:colorAccent">#6750A4</item>
+        <item name="android:windowBackground">#FFF7FF</item>
+        <item name="android:colorBackground">#FFF7FF</item>
+        <item name="android:textColorPrimary">#49454F</item>
+        <item name="android:statusBarColor">#FFF7FF</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#6750A4</item>
+    </style>
+    <style name="Przycisk">
+        <item name="android:background">@drawable/tlo_przycisku</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+</resources>
